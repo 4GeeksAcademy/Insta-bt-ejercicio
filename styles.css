@@ -1,3 +1,31 @@
-div {
-    border:solid 1px black
+
+
+  
+  .fila1{
+    background-color: rgb(227, 225, 225);
+  } 
+  
+  .botoncreate {display:flex;
+    justify-content:flex-end;
+    align-items:center;}
+  
+  
+  .engranage {display:flex;
+    align-items:center;}
+
+  
+  .grilla{
+    display:flex;
+    align-items:center;justify-content:center;
+    
   }
+
+  .title {
+    font-size:xx-large !important;
+  }
+
+  .nro {display:flex;
+    justify-content:flex-end;
+
+  }
+

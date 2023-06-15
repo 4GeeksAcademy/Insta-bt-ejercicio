@@ -3,23 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+   
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" defer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous" defer></script>
+    <script src="https://kit.fontawesome.com/1127357f94.js" crossorigin="anonymous"></script>
+
     <title>insta bootstrap</title>
 </head>
 <body>
-    <div class="row">
+    <div class="row fila1">
         <div class="col-sm-4">
-       Instagram
+          <img src="https://1000marcas.net/wp-content/uploads/2019/11/ig-logo.png" class="figure-img img-fluid rounded" alt="..." width="200" height="100">
         </div>
-        <div class="col-sm-5">
+        <div class="col-sm-4">
         </div>
-        <div class="col-sm-2">
-            <button type="button" class="btn btn-success">Create new post</button>
+        <div class="col-sm-3 botoncreate">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Create new post</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><b>Create a new post</b></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+         
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label"><b>Caption:</b></label>
+            <textarea class="form-control" id="message-text">Add the caption of your post here</textarea>
+            <button type="button" class="btn btn-light"><i class="fa-solid fa-camera"></i></button>
+            <button type="button" class="btn btn-light"><i class="fa-solid fa-location-dot"></i></button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-success">Publish</button>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
-        <div class="col-sm-1"> 
+        <div class="col-sm-1 engranage"> 
             <div class="dropdown">
                 <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="bi bi-gear"></i>
@@ -33,6 +69,302 @@
               </div>
         </div>
      </div>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-4 grilla">
+<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+  <li class="nav-item">
+    <a class="nav-link active" style="background-color: #ffffff; color: black;" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true"><i class="fa-solid fa-table-cells"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" style="background-color: #ffffff; color: black;" id="pills-profile-tab" data-toggle="pill"  href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false"><i class="fa-solid fa-square"></i></a>
+  </li>
+</ul>
+</div>
+</div>
+<div class="tab-content" id="pills-tabContent">
+  <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+        <div class="col">
+          <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="img-thumbnail" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-3 title">
+        My Crazy Dog Spark
+      </div>
+      <div class="col-3 nro">
+        6/20
+      </div>
+  </div>
+  <div class="row justify-content-center">
+    <div class="col-6">
+      <figure class="figure">
+        <img src="https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW1hZ2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption text-start">
+          <p><b>204 likes</b></p>
+          <p>This an example of a very good foto that you can post on instagram.</p>
+        </figcaption>
+      </figure>
+    </div>
+  
+</div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
+
 </html>
+
 
